@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter";
+    color: white;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+p {
+    font-size: 11pt;
+    font-weight: 300;
+}
+
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.interface {
+    padding: 80px 0%;
+    max-width:500px ;
+    margin: 2vh auto;
+    border-radius: 10px;
+    border: 1px solid blue;
+    position: relative;
+    overflow: hidden;
+ 
+}
+
+.perfil {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.perfil-p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.perfil-p p {
+    font-weight: 300;
+}
+
+.perfil .photo img {
+    border-radius: 50%;
+    padding: 6px;
+    border: 4px solid #236AC7;
+}
+
+.link-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    padding: 30px 0px;
+}
+
+.link-buttons a {
+    background: linear-gradient(90deg, #2179ED 0.13%, #113361 194.05%);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: none;
+    border-style: none;
+    text-decoration: none;
+}
+
+hr {
+    width: 100%;
+    border-color: rgb(58, 58, 58);
+}
+
+.ebook {
+    margin-top: 10px;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+}
+
+.social-links {
+    position: absolute;
+    top:-8%;
+    display: flex;
+    flex-direction: column;
+    right: 0%;
+}
+
+.shadow1 {
+    background-color: #224E87;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    filter: blur(58px);
+    position: absolute;
+    top: -12%;
+    right: 30%;
+}
+
+
+@media screen and (max-width:768px) {
+    .interface {
+        margin: 0 auto;
+        padding: 80px 10%;
+        max-width:800px ;
+        border: none;
+        
+    }
+
+}
